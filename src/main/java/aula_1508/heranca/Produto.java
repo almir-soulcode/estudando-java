@@ -2,9 +2,9 @@ package aula_1508.heranca;
 
 public class Produto {
 
-    private String nome;
-    private Float preco;
-    private String codigo;
+    protected String nome;
+    protected Float preco;
+    protected String codigo;
 
     public Produto() {
     }

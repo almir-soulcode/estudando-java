@@ -12,7 +12,9 @@ public class Comida extends Produto {
     }
 
     public Comida(String nome, Float preco, String codigo, LocalDate prazoDeValidade, Float caloria) {
-        super(nome, preco, codigo);
+        super.nome = nome;
+        super.preco = preco;
+        super.codigo = codigo;
         this.prazoDeValidade = prazoDeValidade;
         this.caloria = caloria;
     }
